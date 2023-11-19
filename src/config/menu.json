@@ -5,20 +5,24 @@
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Politik",
+      "url": "/categories/politik"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
+      "name": "Komunitas",
+      "url": "/categories/komunitas"
     },
     {
-      "name": "Features",
-      "url": "/features"
+      "name": "Puisi",
+      "url": "/categories/puisi"
     },
     {
-      "name": "How It Works",
-      "url": "/how-it-works"
+      "name": "Otomotif",
+      "url": "/categories/otomotif"
+    },
+    {
+      "name": "Pasuruan",
+      "url": "/categories/pasuruan"
     },
     {
       "name": "Pages",
@@ -26,41 +30,22 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Career",
+          "name": "Lowongan Kerja",
           "url": "/career"
         },
-
         {
-          "name": "Integrations",
-          "url": "/integrations"
-        },
-
-        {
-          "name": "Pricing",
+          "name": "Pasang Iklan",
           "url": "/pricing"
-        },
-        {
-          "name": "Sign In",
-          "url": "/signin"
-        },
-
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Changelog",
-          "url": "/changelog"
-        },
-        {
-          "name": "Terms And Conditions",
-          "url": "/terms-and-conditions"
         }
       ]
     },
     {
-      "name": "Contact",
+      "name": "Kontak",
       "url": "/contact"
+    },
+    {
+      "name": "Tentang",
+      "url": "/about"
     }
   ],
 
@@ -80,6 +65,10 @@
     {
       "name": "Changelog",
       "url": "/changelog"
+    },
+    {
+      "name": "Terms And Conditions",
+      "url": "/terms-and-conditions"
     }
   ]
 }

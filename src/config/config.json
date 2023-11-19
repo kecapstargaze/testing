@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
-    "base_url": "https://pinwheel-astro.vercel.app",
+    "title": "Seruan Pasuruan",
+    "base_url": "https://linksetelahupload.ya",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "147",
     "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "logo_text": "Seruan Pasuruan"
   },
 
   "settings": {
@@ -22,20 +22,20 @@
     "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
     "button": {
       "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+      "link": "https://tombol.pojok/"
     }
   },
 
   "disqus": {
-    "enable": true,
-    "shortname": "themefisher-template",
+    "enable": false,
+    "shortname": "id-disqus-seruanpasuruan",
     "settings": {}
   },
 
   "params": {
-    "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
+    "footer_description": "Anak usaha komunitas perpustakaan jalanan wahanabaca kota pasuruan, jawa timur.",
+    "email": "email@wahanabaca",
+    "location": "Setiap sabtu di taman kota pasuruan, bersama @wahanabaca",
     "phone": "+704-555-0127",
     "contact_form_action": "#",
     "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
