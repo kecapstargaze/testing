@@ -1,37 +1,37 @@
 ---
 title: "About"
-page_title: "About our company"
+page_title: "Tentang Seruan Pasuruan"
 buttons:
-  - label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+  - label: Dua Satu
+    link: "https://kerjasama.com"
     enable: true
-  - label: Learn More
+  - label: Dua Lima
     link: "#"
     outline: true
     enable: true
 
 # counter
 counter:
-  - name: "Customers"
+  - name: "Komunitas"
     number: 25
     messurment: M
     color: "#A3A1FB"
-  - name: "Customers"
+  - name: "Daily Customers"
     number: 440
     messurment: M
     color: "#5EE2A0"
-  - name: "Customers"
+  - name: "Jurnalis"
     number: 50
     messurment: K
     color: "#FE6019"
-  - name: "Customers"
+  - name: "Redaksi"
     number: 20
     messurment: K
     color: "#FEC163"
     
 # Gallery
 gallery:
-  title: We started with one single goal Empower entrepreneurs
+  title: Kita memulai dengan satu tujuan, MELAWAN NEGARA
   images:
     - "/images/about/gallery-img-1.png"
     - "/images/about/gallery-img-3.png"
@@ -42,7 +42,7 @@ features:
   title: The six core work <br /> drive everything do
   button:
     label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    link: "https://linkapagitu.ya"
     enable: true
   features_list:
     - title: Accessibility
@@ -64,23 +64,39 @@ members:
   title: This is who we are
   description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
   member_list:
-    - name: Eleanor Pena
-      field: Co-founder & COO
+    - name: Fajrin
+      field: Redaksi
       image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
+    - name: Yasin
+      field: Redaksi
       image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
+    - name: Ugik
+      field: Redaksi
       image: "/images/users/user-3.png"
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
+    - name: Putra
+      field: Redaksi
       image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
+    - name: Gopel
+      field: Art Manager
+      image: "/images/users/user-3.png"
+    - name: Wahyu
+      field: Next Soekarno
+      image: "/images/users/user-1.png"
+    - name: Yusron
+      field: Penggiat Lingkungan
+      image: "/images/users/user-2.png"
+    - name: Kiki
+      field: Art Manager
+      image: "/images/users/user-1.png"
+    - name: Rifan
+      field: Penggiat Sepeda
+      image: "/images/users/user-1.png"
+    - name: Krisna
+      field: Web Developer
       image: "/images/users/user-3.png"
 ---
-Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem
+Matematika adalah bahasa paling sederhana yang dapat mendeskripsikan alam semesta
+<br />
+- Galileo Galilei
+<br />
+Btw weton kamu berapa?
