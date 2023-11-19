@@ -446,7 +446,7 @@ select:invalid {
     @apply items-center lg:flex;
 
     &-img {
-      @apply max-h-[210px] w-full self-stretch rounded-md object-cover lg:max-h-full lg:max-w-[40%] xl:max-w-[235px];
+      @apply max-h-[210px] w-full self-stretch rounded-md object-cover lg:max-h-full lg:max-w-[40%] xl:w-[100%];
     }
 
     &-title {
