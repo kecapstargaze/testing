@@ -9,6 +9,8 @@ import { getSinglePage } from "@lib/contentParser.astro";
 import { sortByDate } from "@lib/utils/sortFunctions";
 import { getEntryBySlug } from "astro:content";
 
+import Testimonial from "@layouts/components/Testimonial.astro";
+
 export async function getStaticPaths() {
   const posts = await getSinglePage(config.settings.blog_folder);
   const totalPages = Math.ceil(posts.length / config.settings.pagination);
@@ -40,6 +42,9 @@ const page_data = {
   index_title: blogIndex.data.title,
   slug: `page / ${slug}`,
 };
+
+const homepage = await getEntryBySlug("homepage", "iklanbaris");
+const { banner, key_features, service, testimonial } = homepage.data;
 ---
 
 <Base
@@ -57,6 +62,7 @@ const page_data = {
         currentPage={currentPage}
       />
       <Blogs posts={currentPosts} />
+      <Testimonial testimonial={testimonial} />
       <Pagination
         section={config.settings.blog_folder}
         totalPages={totalPages}
