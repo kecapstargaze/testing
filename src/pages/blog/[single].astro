@@ -5,6 +5,10 @@ import Base from "@layouts/Base.astro";
 import BlogSingle from "@layouts/BlogSingle.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
 
+import FeaturedBlog from "@components/blog/FeaturedBlog.astro";
+import { getEntryBySlug } from "astro:content";
+import { sortByDate } from "@lib/utils/sortFunctions";
+
 export async function getStaticPaths() {
   const posts = await getSinglePage(config.settings.blog_folder);
 
@@ -19,6 +23,13 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { title, meta_title, description, image } = post.data;
+
+const { blog_folder } = config.settings;
+const blogIndex = await getEntryBySlug<any, string>(blog_folder, "-index");
+const posts = await getSinglePage(blog_folder);
+const sortedPosts = sortByDate(posts);
+const featuredPost = sortedPosts.filter((item) => item.data.featured);
+const recentPost = sortedPosts.filter((item) => !item.data.featured);
 ---
 
 <Base
@@ -28,4 +39,5 @@ const { title, meta_title, description, image } = post.data;
   image={image}
 >
   <BlogSingle post={post} />
+  <FeaturedBlog posts={featuredPost} />
 </Base>

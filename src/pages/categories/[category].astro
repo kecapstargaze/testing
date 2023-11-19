@@ -40,17 +40,17 @@ const page_data = {
 
 <Base title={category}>
   <Shape />
-  <section class="page-hero pb-8 pt-16">
+  <section class="page-hero pb-0 pt-1">
     <div class="container">
       <div class="page-hero-content mx-auto max-w-[883px] text-center">
         <PageHeader page_data={page_data} />
         <h1 class="h2 mb-14 text-center">
-          Showing posts from <span class="text-primary">{humanize(item)}</span> category
+          Mencari sesuatu di kategori <span class="text-primary">{humanize(item)}</span> ?
         </h1>
       </div>
     </div>
   </section>
-  <section class="section">
+  <section class="section pt-0">
     <div class="container">
       <BlogCategories categories={categories} />
       <Blogs posts={filterByTags} />
