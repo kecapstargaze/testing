@@ -49,14 +49,13 @@ const page_data = {
   image={blogIndex.data.image}
 >
   <Shape />
-  <section class="page-hero pt-16">
-    <div class="container">
-      <PageHeader page_data={page_data} />
-    </div>
-  </section>
-  <section class="section">
-    <div class="container">
-      <h2 class="h4 mb-4">Recent Posts</h2>
+  <section class="section p-0">
+    <div class="container p-0">
+      <Pagination
+        section={config.settings.blog_folder}
+        totalPages={totalPages}
+        currentPage={currentPage}
+      />
       <Blogs posts={currentPosts} />
       <Pagination
         section={config.settings.blog_folder}
