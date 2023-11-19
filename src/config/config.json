@@ -27,8 +27,8 @@
   },
 
   "disqus": {
-    "enable": false,
-    "shortname": "id-disqus-seruanpasuruan",
+    "enable": true,
+    "shortname": "duniand",
     "settings": {}
   },
 
