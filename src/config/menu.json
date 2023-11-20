@@ -5,27 +5,19 @@
       "url": "/"
     },
     {
-      "name": "Politik",
-      "url": "/categories/politik"
-    },
-    {
       "name": "Komunitas",
-      "url": "/categories/komunitas"
+      "url": "/integrations"
     },
     {
       "name": "Puisi",
       "url": "/categories/puisi"
     },
     {
-      "name": "Otomotif",
-      "url": "/categories/otomotif"
-    },
-    {
       "name": "Pasuruan",
       "url": "/categories/pasuruan"
     },
     {
-      "name": "Pages",
+      "name": "Info",
       "url": "",
       "hasChildren": true,
       "children": [
@@ -36,6 +28,10 @@
         {
           "name": "Pasang Iklan",
           "url": "/pricing"
+        },
+        {
+          "name": "Event",
+          "url": "/categories/event"
         }
       ]
     },

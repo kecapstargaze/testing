@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Seruan Pasuruan",
-    "base_url": "https://linksetelahupload.ya",
+    "base_url": "https://wahanabaca.netlify.app/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -21,14 +21,14 @@
     "title": "Helping teams in the world with focus",
     "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://tombol.pojok/"
+      "label": "Jangan Ditekan",
+      "link": "/kan"
     }
   },
 
   "disqus": {
     "enable": true,
-    "shortname": "duniand",
+    "shortname": "wahanabaca",
     "settings": {}
   },
 

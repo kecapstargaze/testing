@@ -1,9 +1,9 @@
 ---
 title: "About"
-page_title: "Tentang Seruan Pasuruan"
+page_title: "Tentang Wahana Baca"
 buttons:
   - label: Dua Satu
-    link: "https://kerjasama.com"
+    link: "#"
     enable: true
   - label: Dua Lima
     link: "#"
@@ -16,22 +16,22 @@ counter:
     number: 25
     messurment: M
     color: "#A3A1FB"
-  - name: "Daily Customers"
+  - name: "Diisi apa?"
     number: 440
     messurment: M
     color: "#5EE2A0"
-  - name: "Jurnalis"
+  - name: "Penulis"
     number: 50
     messurment: K
     color: "#FE6019"
-  - name: "Redaksi"
+  - name: "kalo ini?"
     number: 20
     messurment: K
     color: "#FEC163"
     
 # Gallery
 gallery:
-  title: Kita memulai dengan satu tujuan, MELAWAN NEGARA
+  title: Kita memulai dengan satu tujuan, apa itu? hayooo ..
   images:
     - "/images/about/gallery-img-1.png"
     - "/images/about/gallery-img-3.png"
@@ -42,7 +42,7 @@ features:
   title: The six core work <br /> drive everything do
   button:
     label: Download The Theme
-    link: "https://linkapagitu.ya"
+    link: "#"
     enable: true
   features_list:
     - title: Accessibility
@@ -98,5 +98,6 @@ members:
 Matematika adalah bahasa paling sederhana yang dapat mendeskripsikan alam semesta
 <br />
 - Galileo Galilei
+<br />
 <br />
 Btw weton kamu berapa?
