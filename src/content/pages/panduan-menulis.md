@@ -1,0 +1,113 @@
+---
+title: "Panduan Menulis"
+excerpt: Panduan Menulis di website Wahana Baca
+draft: false
+---
+
+##### Link Download Format Penulisan
+[Link download](/download/nulis-konten.rar) 
+
+##### Judul file
+judul file harus menggunakan:
+- format "-" sebagai spasi
+- ekstensi ".txt" bukan ".doc", atau ".docx", apalagi ".3gp"
+
+Contoh:
+```
+komunitas-perpustakaan-jalanan-wahana-baca.txt
+```
+
+#### Penulisan Konten
+##### Data Konten
+```
+---
+title: Judul Konten Kita
+subtitle: tulis lagi Judul Konten Kita, Point Utama Konten Kita, Kalo banyak dikasih koma
+image: "/images/posts/NAMA-FOTO-TERLAMPIR.png"
+author: Nama Penulis
+date: 2023-04-04T05:00:00Z
+categories: ["Kategori", "Kapital di awalan", "Kalo banyak dikasih koma"]
+featured: false
+draft: false
+---
+```
+- tanda <b>---</b> JANGAN DIHAPUS!
+- title: Judul dikasih kapital di awalan
+- subtitle: 
+  - judul ditulis kembali, 
+  - ditambah poin penting tulisan kita, 
+  - atau isi penting tulisan kita, 
+  - dikasih koma kalo banyak.
+- image: "/images/posts/judul-file-kalian.png" 
+  - nama file+judul disamakan, 
+  - nama file dikasih stip "-" jangan spasi
+- author: Nama Penulis
+- date: 2023-04-04T05:00:00Z
+  - format ngikutin ini, 
+  - tahun-bulan-hariTjam:menit:detikZ
+- categories: ["Kategori", "Kapital di awalan", "Kalo banyak dikasih koma"]
+  - Kategori konten,
+  - Kapital di awalan
+  - Maximal 2
+  - dikasih koma kalo lebih dari 1
+- featured: false 
+  - gausah diganti
+- draft: false 
+  - gausah diganti
+
+---
+##### Isi Konten
+isi konten diisi terserah teman-teman, bisa dikasih [element](/elements) agar lebih menarik
+
+---
+
+###### Quote
+Pemberian tanda ">" sebelum quote yang diinginkan dan "</ br >" sebagai enter
+
+> Matematika adalah bahasa paling sederhana yang dapat mendeskripsikan alam semesta</br> - Galileo Galilei </br></br> btw weton kamu berapa? 
+```
+> Matematika adalah bahasa paling sederhana yang dapat mendeskripsikan alam semesta</br> - Galileo Galilei </br></br> btw weton kamu berapa?
+```
+
+---
+
+##### Lampiran
+###### Foto
+menggunakan format nama file sperti judul file
+- format "-" sebagai spasi
+- ekstensi ".jpg", ".png", ".jpeg", ".webm" 
+
+Contoh:
+```
+logo-wahana-baca.png
+```
+sesuaikan nata foto dengan Data konten kita 
+```
+image: "/images/posts/logo-wahana-baca.png"
+```
+
+###### Video
+mohon maaf untuk format lampiran video hanya menampung link youtube, website tidak bisa menampung kecuali ikut urunan biaya server minimal 20rb/tahun
+
+Cara pasang link youtube membutuhkan id link youtube, misal:
+
+```
+https://www.youtube.com/watch?v=X2QDhO8m0kA
+```
+
+ID youtube ada di setelah tanda "v=" yakni "<b>X2QDhO8m0kA</b>"
+
+Masukkan id ke <b>"idyoutube"</b>
+
+
+```
+<Youtube client:load id="idyoutube" title="Play:Youtube" />
+```
+menjadi:
+```
+<Youtube client:load id="X2QDhO8m0kA" title="Play:Youtube" />
+```
+
+
+
+
