@@ -32,6 +32,10 @@
         {
           "name": "Event",
           "url": "/categories/event"
+        },
+        {
+          "name": "Panduan Menulis",
+          "url": "/panduan-menulis"
         }
       ]
     },
