@@ -33,9 +33,9 @@ counter:
 gallery:
   title: Kita memulai dengan satu tujuan, apa itu? hayooo ..
   images:
-    - "/images/about/gallery-img-1.png"
-    - "/images/about/gallery-img-3.png"
-    - "/images/about/gallery-img-2.png"
+    - "/images/about/gallery-img-1.jpeg"
+    - "/images/about/gallery-img-3.jpeg"
+    - "/images/about/gallery-img-2.jpeg"
 
 ## our works
 features:
