@@ -1,9 +1,11 @@
 ---
-import Shape from "@components/Shape.astro";
+// import Shape from "@components/Shape.astro";
 import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
 import BlogSingle from "@layouts/BlogSingle.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
+
+import Cta from "@layouts/partials/Cta.astro"
 
 import FeaturedBlog from "@components/blog/FeaturedBlog.astro";
 import { getEntryBySlug } from "astro:content";
@@ -39,7 +41,9 @@ const recentPost = sortedPosts.filter((item) => !item.data.featured);
   image={image}
 >
   <BlogSingle post={post} />
-<br></br>
+<div class="px-20">
+  <Cta />
   <FeaturedBlog posts={featuredPost} />
-  <br></br>
+
+</div>
 </Base>

@@ -12,26 +12,26 @@ buttons:
 
 # counter
 counter:
-  - name: "Komunitas"
+  - name: "Jaringan Komunitas"
     number: 25
     messurment: M
     color: "#A3A1FB"
-  - name: "Diisi apa?"
-    number: 440
+  - name: "Followers Aktif"
+    number: 2348
     messurment: M
     color: "#5EE2A0"
   - name: "Penulis"
     number: 50
     messurment: K
     color: "#FE6019"
-  - name: "kalo ini?"
-    number: 20
-    messurment: K
+  - name: "Sejak"
+    number: 2018
+    messurment: Tahun
     color: "#FEC163"
     
 # Gallery
 gallery:
-  title: Kita memulai dengan satu tujuan, apa itu? hayooo ..
+  title: Kegiatan Mingguan Wahana Baca di Taman Kota Pasuruan
   images:
     - "/images/about/gallery-img-1.jpeg"
     - "/images/about/gallery-img-3.jpeg"
