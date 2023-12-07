@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Seruan Pasuruan",
+    "title": "Wahana Baca",
     "base_url": "https://wahanabaca.netlify.app/",
     "base_path": "/",
     "trailing_slash": false,
@@ -8,7 +8,7 @@
     "logo": "/images/logo.png",
     "logo_width": "147",
     "logo_height": "31",
-    "logo_text": "Seruan Pasuruan"
+    "logo_text": "Wahana Baca"
   },
 
   "settings": {
@@ -18,11 +18,20 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "Pasang karya atau artikelmu di Wahana Baca",
+    "description": "Membaca memang tidak membawamu kemana - mana, tapi dengan membaca kamu bisa membuat pikiranmu berada di titik manapun yang kamu inginkan",
     "button": {
-      "label": "Jangan Ditekan",
-      "link": "/kan"
+      "label": "Pajang Karya",
+      "link": "https://forms.gle/FYAGqpqMAew3wLXk8"
+    }
+  },
+
+  "call_to_komunitas": {
+    "title": "Jejaring Komunitas Pasuruan Raya",
+    "description": "Ikut jejaring",
+    "button": {
+      "label": "Ikut Jejaring",
+      "link": "/#"
     }
   },
 
@@ -33,17 +42,17 @@
   },
 
   "params": {
-    "footer_description": "Anak usaha komunitas perpustakaan jalanan wahanabaca kota pasuruan, jawa timur.",
+    "footer_description": "Komunitas Perpustakaan Jalanan Wahana Baca Kota Pasuruan, Jawa Timur.",
     "email": "email@wahanabaca",
     "location": "Setiap sabtu di taman kota pasuruan, bersama @wahanabaca",
     "phone": "+704-555-0127",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2023 Wahana Baca </br> Theme by [Themefisher](/404)"
   },
 
   "metadata": {
     "meta_author": "Themefisher",
     "meta_image": "/images/og-image.png",
-    "meta_description": "pinwheel astro"
+    "meta_description": "Perpustakaan Jalanan Kota Pasuruan Wahana Baca"
   }
 }
