@@ -1,6 +1,7 @@
 ---
 import Logo from "@components/Logo.astro";
 import menu from "@config/menu.json";
+import { FaSearch } from "react-icons/fa/index.js";
 
 export interface ChildNavigationLink {
   name: string;
@@ -29,7 +30,7 @@ const { pathname } = Astro.url;
     <label
       id="show-button"
       for="nav-toggle"
-      class="order-2 flex cursor-pointer items-center lg:order-1 lg:hidden"
+      class="order-1 flex cursor-pointer items-center lg:order-1 lg:hidden"
     >
       <svg class="h-6 fill-current" viewBox="0 0 20 20">
         <title>Menu Open</title>
@@ -39,7 +40,7 @@ const { pathname } = Astro.url;
     <label
       id="hide-button"
       for="nav-toggle"
-      class="order-2 hidden cursor-pointer items-center lg:order-1"
+      class="order-1 hidden cursor-pointer items-center lg:order-1"
     >
       <svg class="h-6 fill-current" viewBox="0 0 20 20">
         <title>Menu Close</title>
@@ -113,18 +114,21 @@ const { pathname } = Astro.url;
           </>
         ))
       }
-      <li class="nav-item mt-2 lg:hidden">
-        <a class="btn btn-white btn-sm border-border" href="/donasi">
+      <li class="nav-item mt-2 grid grid-cols-2 lg:hidden">
+        <a class="btn btn-white btn-sm border-border flex col-span-1 justify-center" href="/donasi">
           Dont click</a
         >
-        <a class="btn btn-outline-primary btn-sm" href="/search">Q</a>
+        <a class="btn btn-white btn-sm items-center flex col-span-1 justify-center" href="/search"><FaSearch/><span> Pencarian</span>
+        </a>
       </li>
     </ul>
-    <div class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex w-0">
-      <a class="btn btn-outline-primary btn-sm" href="/search">Q</a>
-    </div>
-    <div class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex">
-      <a class="btn btn-white btn-sm" href="/donasi">Dont click</a>
+    <div class="inline-block order-1 grid grid-cols-2 px-10 flex justify-items-center w-96">
+      <div class="inline-block col-span-1 hidden md:order-1 md:ml-0 lg:flex">
+        <a class="btn btn-outline-primary btn-sm items-center flex" href="/search"><FaSearch/></a>
+      </div>
+      <div class="inline-block col-span-1 hidden items-center md:order-2 md:ml-0 lg:flex">
+        <a class="btn btn-white btn-sm" href="/donasi">Dont click</a>
+      </div>
     </div>
   </nav>
 </header>
