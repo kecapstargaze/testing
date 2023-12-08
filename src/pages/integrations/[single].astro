@@ -1,7 +1,7 @@
 ---
 import { Image } from "@astrojs/image/components";
 import PageHeader from "@components/PageHeader.astro";
-import Shape from "@components/Shape.astro";
+// import Shape from "@components/Shape.astro";
 import Base from "@layouts/Base.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
 import { humanize, markdownify } from "@lib/utils/textConverter";
@@ -36,8 +36,8 @@ const page_data = {
   description={post.data.description}
   image={post.data.image}
 >
-  <Shape />
-  <section class="page-hero pb-8 pt-16">
+  <!-- <Shape /> -->
+  <section class="page-hero pb-8 pt-1">
     <div class="container">
       <div class="page-hero-content mx-auto max-w-[883px] text-center">
         <PageHeader page_data={page_data} />
@@ -53,7 +53,7 @@ const page_data = {
               <Image
                 class="mx-auto"
                 src={post.data.image}
-                alt=""
+                alt={post.data.title}
                 height={80}
                 width={80}
               />

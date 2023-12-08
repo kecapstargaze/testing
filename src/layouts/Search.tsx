@@ -68,7 +68,7 @@ const Search = ({ searchList }: Props) => {
   }, [inputVal]);
 
   return (
-    <section className="section-sm">
+    <section className="section-sm pt-8">
       <div className="container">
         <div className="row mb-10 justify-center">
           <div className="lg:col-8">
@@ -111,7 +111,7 @@ const Search = ({ searchList }: Props) => {
               <h1 className="h2 mb-4 w-full">
                 {inputVal.length < 1 ? "Search Here!" : "No Search Found!"}
               </h1>
-              <p>
+              <p class="pb-8">
                 {inputVal.length < 1
                   ? "Cari penulis, judul, atau kategori"
                   : "Maaf saudaraku, sepertinya aku tidak menemukan apapun."}

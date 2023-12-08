@@ -13,25 +13,13 @@
       "url": "/categories/puisi"
     },
     {
-      "name": "Pasuruan",
-      "url": "/categories/pasuruan"
-    },
-    {
       "name": "Info",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Lowongan Kerja",
-          "url": "/career"
-        },
-        {
-          "name": "Pasang Iklan",
-          "url": "/pricing"
-        },
-        {
-          "name": "Event",
-          "url": "/categories/event"
+          "name": "Changelog",
+          "url": "/changelog"
         },
         {
           "name": "Panduan Menulis",

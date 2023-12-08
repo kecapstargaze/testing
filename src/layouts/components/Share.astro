@@ -11,8 +11,9 @@ const { base_url } = config.site;
 const { title, description, slug, className } = Astro.props;
 ---
 
-<ul class={`${className}`}>
-  <li class="inline-block">
+<ul class="text-3xl text-right ">
+  <h5 class="pb-6">Share This:</h5>
+  <li class="inline-block hover:text-primary px-3">
     <a
       aria-label="facebook share button"
       href={`https://facebook.com/sharer/sharer.php?u=${base_url}/${slug}`}
@@ -22,7 +23,7 @@ const { title, description, slug, className } = Astro.props;
       <IoLogoFacebook />
     </a>
   </li>
-  <li class="inline-block">
+  <li class="inline-block hover:text-primary px-3">
     <a
       aria-label="twitter share button"
       href={`https://twitter.com/intent/tweet/?text=${title}&amp;url=${base_url}/${slug}`}
@@ -32,7 +33,7 @@ const { title, description, slug, className } = Astro.props;
       <IoLogoTwitter />
     </a>
   </li>
-  <li class="inline-block">
+  <li class="inline-block hover:text-primary px-3">
     <a
       aria-label="linkedin share button"
       href={`https://www.linkedin.com/shareArticle?mini=true&url=${base_url}/${slug}&title=${title}&summary=${description}&source=${base_url}`}
@@ -42,7 +43,7 @@ const { title, description, slug, className } = Astro.props;
       <IoLogoLinkedin />
     </a>
   </li>
-  <li class="inline-block">
+  <li class="inline-block hover:text-primary px-3">
     <a
       aria-label="pinterest share button"
       href={`https://pinterest.com/pin/create/button/?url=${base_url}/${slug}&media=&description=${description}`}

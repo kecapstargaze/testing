@@ -8,6 +8,21 @@ import config from "@config/config.json";
 const { logo } = config.site;
 const entry = await getEntryBySlug("pages", "404");
 const { Content } = await entry.render();
+
+// import Search from "@layouts/Search";
+// import { getSinglePage } from "@lib/contentParser.astro";
+
+// const { blog_folder } = config.settings;
+
+// // Retrieve all articles
+// const posts = await getSinglePage(blog_folder);
+
+// // List of items to search in
+// const searchList = posts.map((item) => ({
+//   slug: item.slug,
+//   data: item.data,
+//   content: item.body,
+// }));
 ---
 
 <Base title={entry.data.title}>
@@ -24,8 +39,12 @@ const { Content } = await entry.render();
           />
           <h1 class="mb-4" set:html={markdownify(entry.data.title)} />
           <Content />
+
         </div>
       </div>
     </div>
   </section>
+  <div class="pt-8">
+    <!-- <Search client:load searchList={searchList} /> -->
+  </div>
 </Base>

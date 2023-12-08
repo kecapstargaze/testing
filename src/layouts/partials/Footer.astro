@@ -23,13 +23,13 @@ const { copyright, location, email, phone, footer_description } = config.params;
 
         <Social source={social} className="social-icons mt-4 lg:mt-6 text-center" />
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3 text-center">
-        <h6>Quick Links</h6>
-        <ul>
+      <div class="col-12 mt-12 md:col-6 lg:col-3 ">
+        <h6 class="text-center">Quick Links</h6>
+        <ul class="text-center lg:text-left">
           {
             footer.map((item, i) => (
               <li class={footer.length - 1 === i ? "mb-0" : "mb-4"}>
-                <a class="hover:text-primary hover:underline " href={item.url}>
+                <a class="hover:text-primary hover:underline" href={item.url}>
                   {item.name}
                 </a>
               </li>
@@ -37,8 +37,8 @@ const { copyright, location, email, phone, footer_description } = config.params;
           }
         </ul>
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3 text-center">
-        <h6>Location & Contact</h6>
+      <div class="col-12 mt-12 md:col-6 lg:col-3">
+        <h6 class="text-center">Location & Contact</h6>
         <ul>
           <li class="mb-2">{location}</li>
           <li class="mb-2">

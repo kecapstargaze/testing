@@ -9,6 +9,7 @@ testimonial:
       organization: UMKM Lokal Pasuruan
       rating: four
       content: Contoh [iklan baris](a), isinya bebas sih. harganya entah juga gatau pasarannya. tapi bisa nego mantep tuh .
+      link: /donasi
     - author: David Cameron
       avatar: "/images/users/user-6.png"
       organization: meta limited
