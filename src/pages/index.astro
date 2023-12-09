@@ -46,13 +46,16 @@ const currentPosts = recentPost.slice(0, config.settings.pagination);
   description={blogIndex.data.description}
   image={blogIndex.data.image}
 >
+<h1
+class="mb-5 mt-8 text-center">WAHANA BACA</h1>
+<!-- <p class="text-center">Membaca tidak pernah membawamu kemana-mana,<br></br>
+  tapi dengan membaca kamu bisa membuat pikiranmu berada di titik manapun</p> -->
   <!-- <Shape /> -->
   <section class="section pt-5">
     <div class="container">
-
       <FeaturedBlog posts={featuredPost} />
       <BlogCategories categories={categories} />
-      <h2 class="h4 mb-4">Recent Posts</h2>
+      <h2 class="h4 mb-4">Asupan Baca Terbaru</h2>
       <Blogs posts={currentPosts} />
       <!-- <Testimonial testimonial={testimonial} /> -->
 
@@ -64,5 +67,4 @@ const currentPosts = recentPost.slice(0, config.settings.pagination);
       <Cta />
     </div>
   </section>
-
 </Base>

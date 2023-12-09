@@ -24,7 +24,7 @@ const { posts } = Astro.props;
             <div class="card-content">
               <div class="card-tags space-x-1">
                 {item.data.categories.map((category: any) => (
-                  <a class="tag" href={`/categories/${slugify(category)}`}  aria-label={`Selengkapnya di kategori ${item.data.category}`}>
+                  <a class="tag" href={`/categories/${slugify(category)}`}  aria-label={`Selengkapnya di kategori ${item.data.categories}`}>
                     {humanize(category)}
                   </a>
                 ))}

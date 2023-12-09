@@ -11,7 +11,7 @@ import {
   FaRegFolder,
   FaRegUserCircle,
 } from "react-icons/fa/index.js";
-import Share from "@components/Share.astro";
+// import Share from "@components/Share.astro";
 
 const { post } = Astro.props;
 const { Content } = await post.render();
@@ -67,9 +67,8 @@ const { Content } = await post.render();
 
         <div class="content">
           <Content />
-
         </div>
-        <Share />
+        <!-- <Share /> -->
 
         <Disqus client:load />
       </div>

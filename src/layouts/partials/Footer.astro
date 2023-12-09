@@ -14,17 +14,20 @@ const { copyright, location, email, phone, footer_description } = config.params;
     <div class="gx-5 row pb-10 pt-[52px]">
       <div class="col-12 mt-12 md:col-6 lg:col-3">
         <Logo />
-        <p class="mt-6">
+        <h3 class="h6 mt-6">
           {footer_description}
-        </p>
+        </h3>
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3 text-center">
-        <h6>Socials</h6>
+      <div class="col-12 mt-12 text-center md:col-6 lg:col-3">
+        <h3 class="h5">Social Media</h3>
 
-        <Social source={social} className="social-icons mt-4 lg:mt-6 text-center" />
+        <Social
+          source={social}
+          className="social-icons mt-4 lg:mt-6 text-center"
+        />
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3 ">
-        <h6 class="text-center">Quick Links</h6>
+      <div class="col-12 mt-12 md:col-6 lg:col-3">
+        <h3 class="h5 text-center">Quick Links</h3>
         <ul class="text-center lg:text-left">
           {
             footer.map((item, i) => (
@@ -38,16 +41,18 @@ const { copyright, location, email, phone, footer_description } = config.params;
         </ul>
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6 class="text-center">Location & Contact</h6>
+        <h3 class="h5 text-center">Location & Contact</h3>
         <ul>
           <li class="mb-2">{location}</li>
           <li class="mb-2">
             <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
-              >{email}</a>
+              >{email}</a
+            >
           </li>
           <li>
             <a class="hover:text-primary hover:underline" href={`tel:${phone}`}
-              >{phone}</a>
+              >{phone}</a
+            >
           </li>
         </ul>
       </div>

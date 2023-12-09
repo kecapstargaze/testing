@@ -12,8 +12,9 @@ const { posts } = Astro.props;
   {
     posts.map((post: any) => (
       <div class="mb-0 p-2.5 md:col-3">
-        <a href={`/blog/${post.slug}`}>
           <div class="card">
+            <a href={`/blog/${post.slug}`} aria-label={`Baca Selengkapnya ${post.data.title}`}>
+
             <Image
               class="card-img"
               width={335}
@@ -24,14 +25,14 @@ const { posts } = Astro.props;
             <div class="card-content">
               <div class="card-tags space-x-1">
                 {post.data.categories.map((category: any) => (
-                  <a class="tag" href={`/categories/${slugify(category)}`}>
+                  <a class="tag" href={`/categories/${slugify(category)}`} aria-label={`Cari bacaan ${post.data.categories} lainnya`}>
                     {humanize(category)}
                   </a>
                 ))}
               </div>
-              <h5 class="card-title">
-                <a href={`/blog/${post.slug}`}>{post.data.title}</a>
-              </h5>
+              <h3 class="h5 card-title">
+                <a href={`/blog/${post.slug}`} aria-label={`Baca Selengkapnya ${post.data.title}`}>{post.data.title}</a>
+              </h3>
               <div class="card-footer mt-0 flex space-x-4">
                 <span class="inline-flex items-center text-xs text-[#666]">
                   <svg
@@ -69,8 +70,9 @@ const { posts } = Astro.props;
                 </span>
               </div>
             </div>
+          </a>
+
           </div>
-        </a>
       </div>
     ))
   }
