@@ -2,7 +2,7 @@
 import BlogCategories from "@components/blog/BlogCategories.astro";
 import Blogs from "@components/Blogs.astro";
 import PageHeader from "@components/PageHeader.astro";
-import Shape from "@components/Shape.astro";
+// import Shape from "@components/Shape.astro";
 import config from "@config/config.json";
 import Base from "@layouts/Base.astro";
 import { getSinglePage } from "@lib/contentParser.astro";
@@ -45,7 +45,9 @@ const page_data = {
       <div class="page-hero-content mx-auto max-w-[883px] text-center">
         <PageHeader page_data={page_data} />
         <h1 class="h2 mb-14 text-center">
-          Mencari sesuatu di kategori <span class="text-primary">{humanize(item)}</span> ?
+          Mencari sesuatu di kategori <span class="text-primary"
+            >{humanize(item)}</span
+          > ?
         </h1>
       </div>
     </div>

@@ -48,7 +48,7 @@ const IntegrateMedia = ({ integrations, categories }) => {
                 <div className="integration-card-head flex items-center space-x-4">
                   <img src={item.data.image} alt="" />
                   <div>
-                    <h4 className="h4">{humanize(item.data.name)}</h4>
+                    <h2 className="h4">{humanize(item.data.name)}</h2>
                     {item.data.categories.map((category, i) => (
                       <span className="font-medium" key={i}>
                         {humanize(category)}

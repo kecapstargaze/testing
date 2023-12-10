@@ -6,7 +6,7 @@ import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
 const { footer } = menu;
-const { copyright, location, email, phone, footer_description } = config.params;
+const { copyright, kritik, email, phone, footer_description } = config.params;
 ---
 
 <footer class="footer bg-[#F1F1F8]" sm>
@@ -28,7 +28,7 @@ const { copyright, location, email, phone, footer_description } = config.params;
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
         <h3 class="h5 text-center">Quick Links</h3>
-        <ul class="text-center lg:text-left">
+        <ul class="text-center lg:text-left mt-8">
           {
             footer.map((item, i) => (
               <li class={footer.length - 1 === i ? "mb-0" : "mb-4"}>
@@ -41,9 +41,9 @@ const { copyright, location, email, phone, footer_description } = config.params;
         </ul>
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h3 class="h5 text-center">Location & Contact</h3>
-        <ul>
-          <li class="mb-2">{location}</li>
+        <h3 class="h5 text-center">Kritik & Saran</h3>
+        <ul class="pt-8">
+          <li class="mb-2">{kritik}</li>
           <li class="mb-2">
             <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
               >{email}</a
