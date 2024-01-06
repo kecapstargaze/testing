@@ -28,7 +28,7 @@ counter:
     number: 2018
     messurment: Tahun
     color: "#FEC163"
-
+    
 # Gallery
 gallery:
   title: Kegiatan Mingguan Wahana Baca di Taman Kota Pasuruan
@@ -57,6 +57,7 @@ features:
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
     - title: Innovation
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+    
 
 ## members
 members:
@@ -94,11 +95,9 @@ members:
       field: Web Developer
       image: "/images/users/user-3.png"
 ---
-
 Matematika adalah bahasa paling sederhana yang dapat mendeskripsikan alam semesta
 <br />
-
 - Galileo Galilei
-  <br />
-  <br />
-  Btw weton kamu berapa?
+<br />
+<br />
+Btw weton kamu berapa?

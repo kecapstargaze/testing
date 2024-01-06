@@ -2,7 +2,7 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#313131",
+        "primary": "#131313",
         "secondary": "#FEE140",
         "body": "#fafafa",
         "border": "#EBEBEB",
@@ -10,7 +10,7 @@
         "theme_dark": "#1a202c"
       },
       "text_color": {
-        "default": "#313131",
+        "default": "#131313",
         "dark": "#222",
         "light": "#ceced0"
       }

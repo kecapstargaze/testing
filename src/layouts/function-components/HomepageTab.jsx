@@ -34,6 +34,7 @@ const HomepageTab = ({ homepage_tab: { tab_list, title, description } }) => {
                     tab === index ? "active" : undefined
                   }`}
                   onClick={() => setTab(index)}
+                  
                 >
                   <span className="tab-icon mr-3">
                     {" "}
