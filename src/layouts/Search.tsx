@@ -74,7 +74,7 @@ const Search = ({ searchList }: Props) => {
           <div className="lg:col-8">
             <div className="flex flex-nowrap">
               <input
-                className="form-input rounded-r-none w-full"
+                className="form-input w-full rounded-r-none"
                 placeholder="Cari penulis, judul, atau kategori"
                 type="search"
                 name="search"
@@ -119,8 +119,11 @@ const Search = ({ searchList }: Props) => {
             </div>
           ) : (
             searchResults?.map(({ item }, index) => (
-              <div className="mb-12 md:col-4 lg:col-3 sm:col-5" key={`search-${index}`}>
-                <div className="bg-body dark:bg-darkmode-body">
+              <div
+                className="mb-12 sm:col-5 md:col-4 lg:col-3"
+                key={`search-${index}`}
+              >
+                <div className="dark:bg-darkmode-body bg-body">
                   {item.data.image && (
                     <img
                       className="mb-6 w-full rounded"
@@ -155,7 +158,7 @@ const Search = ({ searchList }: Props) => {
                             {humanize(category)}
                             {index !== item.data.categories.length - 1 && ", "}
                           </a>
-                        ),
+                        )
                       )}
                     </li>
                   </ul>

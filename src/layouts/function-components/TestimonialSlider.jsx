@@ -52,7 +52,9 @@ const TestimonialSlider = ({ list }) => {
                 <Star />
                 <Star />
               </div>
-              <a href={item.link} class="p-5"><p>selengkapnya ..</p></a>
+              <a href={item.link} class="p-5">
+                <p>selengkapnya ..</p>
+              </a>
             </div>
           </SwiperSlide>
         ))}

@@ -4,14 +4,16 @@ const { categories } = Astro.props;
 const params = Astro.params;
 ---
 
-<div class="category-filter mb-10 mt-3 rounded-2xl bg-[#EEEEEE] p-4 lg:text-center">
+<div
+  class="category-filter mb-10 mt-3 rounded-2xl bg-[#EEEEEE] p-4 lg:text-center"
+>
   <ul class="filter-list flex flex-wrap items-center">
     <li>
       <a
         class={`filter-btn ${
           !params.category ? "filter-btn-active" : undefined
         } btn btn-sm`}
-        href="/categories">All Categories</a
+        href="/categories">Semua Kategori</a
       >
     </li>
     {

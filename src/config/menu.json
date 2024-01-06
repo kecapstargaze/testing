@@ -18,10 +18,6 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Changelog",
-          "url": "/changelog"
-        },
-        {
           "name": "Panduan Menulis",
           "url": "/panduan-menulis"
         }
@@ -39,24 +35,12 @@
 
   "footer": [
     {
+      "name": "Beranda",
+      "url": "/"
+    },
+    {
       "name": "About",
       "url": "/about"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Changelog",
-      "url": "/changelog"
-    },
-    {
-      "name": "Terms And Conditions",
-      "url": "/terms-and-conditions"
     }
   ]
 }
